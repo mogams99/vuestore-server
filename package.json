@@ -1,0 +1,30 @@
+{
+  "name": "vuestore-server",
+  "version": "1.0.0",
+  "description": "project sisi server atau back end dengan framework express js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mogams99/vuestore-server.git"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "moongose",
+    "restful",
+    "api"
+  ],
+  "author": "mogams99",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mogams99/vuestore-server/issues"
+  },
+  "homepage": "https://github.com/mogams99/vuestore-server#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2"
+  }
+}
