@@ -22,6 +22,8 @@ app.get('/', (req, res) => {
   });
 });
 
+require('./app/routes/product.route')(app);
+
 app.listen(port, () => {
   console.log(`This app listening on ${url}:${port}.`)
 });
