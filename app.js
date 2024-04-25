@@ -1,10 +1,12 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 const port = process.env.PORT || 8081;
 const url = 'http://localhost';
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use('/img', express.static(path.join(__dirname, './public/img')));
 
 const db = require('./app/models');
 db.mongoose
